@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* --------------Login code starts here ---- */
+ .container form{
+	margin-top: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	width: 400px;
+	padding: 50px 20px 50px 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+.container form input{
+	border-radius: 15px;
+}
+ .container form .btn{
+	border-radius: 15px;
+	width: 100%;
+} 
+
+/* --------------Login code ends here ------------ */
+
+
+/* --------------index code starts here ------------ */
+.title{
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: black;
+	color: orange;
+}
+.carousel-inner img {
+width: 100%;
+height: 100%;
+}
+.head{
+font-size: 20px;
+}
+.row .col-sm-3{
+box-shadow: 0 20px 0 0 rgba(0,0,0,0.1);
+border-radius: 5px;
+}
+.product .card{
+padding: 0 5px 0 25px;
+  }
+ .product .card .card-body{
+	  padding: 30px 0px 20px 30px;
+  }
+  .product .card .card-body img{
+	  padding-bottom: 5px;
+  }
+
+/* --------------index code ends here ------------ */
+
+
+/* ---------------- registration code starts here -------- */
+  .container form{
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+.container form input{
+	border-radius: 15px;
+}
+.container form .form-group{
+	margin-top: 20px;
+}
+.title{
+	   padding-left: 80px;
+}
+ /* ---------------- registration code ends here -------- */
+
+
+/* ----------------- blackshoe code starts here ----- */
+  .container .card{
+	padding: 10px 5px 30px 10px;
+	}
+ /* ----------------- blackshoe code ends here ----- */
+
+
+
+/* ------------ greyshoe code starts here  -------- */
+.container .card{
+	padding: 10px 5px 30px 10px;
+}
+/* ------------ greyshoe code ends here  -------- */
+
+
+/* ---------- dress code starts here ------  */
+.container .card{
+	padding: 10px 5px 30px 10px;
+}
+/* ---------- dress code ends here ------  */
