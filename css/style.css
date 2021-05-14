@@ -29,9 +29,23 @@
 /* --------------index code starts here ------------ */
 .title{
 	text-align: center;
-	margin-bottom: 30px;
-	background-color: black;
-	color: orange;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 20px auto 50px;
+	position: relative;
+	line-height: 40px;
+	color: #555;
+}
+.title::after{
+	content: '';
+	background: #ff523b;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50%,-50%);
 }
 .carousel-inner img {
 width: 100%;
